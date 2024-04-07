@@ -27,7 +27,6 @@ const Intro = () => {
       <div className="i-left">
         <div className="i-name">
           {/* yahan change hy darkmode ka */}
-<<<<<<< HEAD
           <span style={{ color: darkMode ? "white" : "" }}>Hii! I Am</span>
           <span>SHANAVAAS J</span>
           <span>
@@ -38,19 +37,6 @@ const Intro = () => {
             With experience in RDBMS databases such as MySQL, SQLite, and PostgreSQL, I craft dynamic web solutions tailored to meet diverse needs. Additionally, I'm adept at handling JSON data and form-urlencoded requests through middleware implementations in Node.js, Django REST framework, and PHP.
           </span>
 
-=======
-          <span style={{ color: darkMode ? "white" : "" }}>Hy! I Am</span>
-          <span>SHANAVAAS J</span>
-          <span>
-            "Hi there! I'm a Fullstack Developer and I'm thrilled to be part of
-            ever-evolving world of web developent and producting the Quality
-            work.
-            <br />
-            Each Project has been a stepping stone
-            <br />
-            Pushing me to explore new techologies and concepts
-          </span>
->>>>>>> 54ba56411f326d2820ee1a56cff02587bab29297
         </div>
         <Link to="contact" smooth={true} spy={true}>
           <button className="button i-button">Hire me</button>
@@ -63,11 +49,7 @@ const Intro = () => {
           <a href="https://www.linkedin.com/in/shanavaas-j-0449901ab/">
             <img src={LinkedIn} alt="" />
           </a>
-<<<<<<< HEAD
           <a href="mailto: shanavaas4786@gmail.com">
-=======
-          <a href="mailto: shanavaas2001@gmail.com">
->>>>>>> 54ba56411f326d2820ee1a56cff02587bab29297
             <img src={Email} alt="" />
           </a>
         </div>
